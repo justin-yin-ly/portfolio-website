@@ -63,7 +63,7 @@ a:active {
     color: var(--link-active);
 }
 
-button, .button {
+button, .button, .submit-button {
     border: none;
     display: inline-block;
     font-family: inherit;
@@ -76,7 +76,7 @@ button, .button {
     transition: opacity 0.2s;
 }
 
-button:hover, button:focus, .button:hover, .button:focus{
+button:hover, button:focus, .button:hover, .button:focus, .submit-button:hover, .submit-button:focus {
     cursor: pointer;
     opacity: 0.8;
 }
@@ -88,6 +88,11 @@ button:hover, button:focus, .button:hover, .button:focus{
 .button_secondary {
     background-color: var(--secondary-color);
     color: var(--dark-grey);
+}
+
+.submit-button {
+    width: 200px;
+    margin: var(--spacing-large) auto;
 }
 
 .navigation-list__item {
@@ -141,7 +146,7 @@ button:hover, button:focus, .button:hover, .button:focus{
     margin-left: 15px;
 }
 
-.about-content, .contact-content {
+.about-content{
     max-width: 800px;
     margin: var(--margin-center);
 }
@@ -163,6 +168,12 @@ section h1 {
 
 form {
     margin-top: var(--spacing-large);
+}
+
+.contact-content {
+    max-width: 750px;
+    margin: var(--margin-center);
+    text-align: center;
 }
 
 .contact-content__message {
