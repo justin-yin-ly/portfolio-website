@@ -149,6 +149,8 @@ button:hover, button:focus, .button:hover, .button:focus, .submit-button:hover, 
 .about-content{
     max-width: 800px;
     margin: var(--margin-center);
+    padding-bottom: 20px;
+    border-bottom: 1px solid #05676e;
 }
 
 .about-content h1, section h1 {
@@ -161,9 +163,14 @@ section h1 {
 }
 
 .about-content table {
+    padding-top: 10px;
     max-width: 500px;
     margin: var(--margin-center);
     text-align: center;
+}
+
+th {
+    width: 200px;
 }
 
 form {
