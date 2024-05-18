@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Justin Ly's Portfolio - Prior Work</title>
         <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
     <body>
@@ -37,38 +37,52 @@
             <h1>Work</h1>
             <div class="grid">
                 <div class="grid__item">
+                    <img class="grid__img" src="img/pokedex-ex.PNG">
                     <h2>Pokedex Project</h2>
-                    <p>Small project displaying basic usage and implementation of external API.</p>
+                    <p>In this small project, I display basic usage and implementation of an external API to retrieve and display information.</p>
+                    <p>Technologies: Bootstrap, CSS, jQuery, tota11y</p>
                     <a href="https://github.com/justin-yin-ly/pokedex-js-app">See project on Github</a>
                 </div>
                 <div class="grid__item">
-                    <h2>Movie Database Web App</h2>
-                    <p>Developed a custom API for use with a self-managed database to display information about movies to a user; the user can create their own account for access to additional functions.</p>
+                    <img class="grid__img" src="img/movieapi-ex.PNG">
+                    <h2>Movie Database Backend</h2>
+                    <p>I developed a custom API for use with a self-managed database to display information about movies to a user; the user can create their own account for access to additional functions.</p>
+                    <p>Technologies: CORS, Express, JSDoc, Mongoose, Morgan, Passport, NoSQL</p>
+                    <a href="https://github.com/justin-yin-ly/myFlix-api">See project on Github</a>
+                </div>
+                <div class="grid__item">
+                    <img class="grid__img" src="img/myFlix-react-ex.PNG">
+                    <h2>Movie Database React Client</h2>
+                    <p>Using React, I created a web application that allowed users to interface with an API I created for retrieving movie information.</p>
+                    <p>Technologies: Bootstrap, Prop-types, React</p>
                     <a href="https://github.com/justin-yin-ly/myFlix-client">See project on Github</a>
                     <br>
                     <a href="https://cinedata.netlify.app/">See the live app</a>
                 </div>
                 <div class="grid__item">
-                    <h2>Cooking Recipe API Demo</h2>
-                    <p>I created a web application that displayed cooking recipes using an external API and allowed users to save and view memorable recipes.</p>
-                    <a href="">See project on Github</a>
+                    <img class="grid__img" src="img/myFlix-angular-ex.PNG">
+                    <h2>Movie Database Angular Client</h2>
+                    <p>Using Angular, I created a web application that allowed users to interface with an API I created for retrieving movie information.</p>
+                    <p>Technologies: Angular, RXJS, TypeDoc</p>
+                    <a href="https://github.com/justin-yin-ly/myFlix-angular-client">See project on Github</a>
+                    <br>
+                    <a href="https://justin-yin-ly.github.io/myFlix-angular-client">See the live app</a>
                 </div>
                 <div class="grid__item">
-                    <h2>Javascript Demonstration</h2>
-                    <p>I demonstrated usage of Javascript by having a button that displayed a variety of text whenever the user pressed it.</p>
-                    <a href="">See project on Github</a>
-                </div>
-                <div class="grid__item">
-                    <h2>Javascript Game</h2>
-                    <p>I made a small game powered by Javascript where the user controlled a space ship and fought aliens.</p>
-                    <a href="">See project on Github</a>
-                </div>
-                <div class="grid__item">
+                    <img class="grid__img" src="img/meetapp-ex.PNG">
                     <h2>Meet App</h2>
-                    <p> This project demonstrated use of various web technologies to assemble a comprehensive event management app. It implements React, OAuth, Recharts, and more to create an app that is responsive, pulls data from a live source, and display data visually.</p>
+                    <p> This project demonstrated use of various web technologies to assemble a comprehensive event management app. It implements React, OAuth, Recharts, and more to create an app that is responsive, pulls data from a live source, and displays data visually.</p>
+                    <p>Technologies: Atatus, AWS Lambda, Google Calendar API, Jest, React</p>
                     <a href="https://github.com/justin-yin-ly/meet-app">See project on Github</a>
                     <br>
                     <a href="https://justin-yin-ly.github.io/meet-app/">See the live app</a>
+                </div>
+                <div class="grid__item">
+                    <img class="grid__img" src="img/chatapp-ex.PNG">
+                    <h2>Chat App</h2>
+                    <p>Using GiftedChat, I created a simple Chat App that included features such as image and location sharing, and made use of Google Firebase for storing and retrieving messages.</p>
+                    <p>Technologies: AsyncStorage, Expo, Firebase, Gifted Chat, React Native</p>
+                    <a href="https://github.com/justin-yin-ly/chat-app">See project on Github</a>
                 </div>
             </div>
         </section>
@@ -76,9 +90,15 @@
         <footer class="page-footer">
             <p>Find me on</p>
             <div class="social-media">
-                <img src="img/github_icon.svg" alt="Github">
-                <img src="img/twitter_icon.svg" alt="Twitter">
-                <img src="img/linkedin_icon.svg" alt="LinkedIn">
+                <a class="img-link" href="https://github.com/justin-yin-ly">
+                    <img src="img/github_icon.svg" alt="Github"/>
+                </a>
+                <a class="img-link" href="https://x.com/justin_yin_ly">
+                    <img src="img/twitter_icon.svg" alt="Twitter"/>
+                </a>
+                <a class="img-link" href="https://www.linkedin.com/in/justin-ly-456799176/">
+                    <img src="img/linkedin_icon.svg" alt="LinkedIn"/>
+                </a>
             </div>
         </footer> 
         
