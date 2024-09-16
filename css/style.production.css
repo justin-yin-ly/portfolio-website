@@ -306,6 +306,9 @@ section {
         grid-gap: var(--spacing-small);
     }
 
+    .casestudy-block {
+        display: block
+    }
 
     h1 {
         font-size: 22px;
