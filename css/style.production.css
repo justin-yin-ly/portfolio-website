@@ -174,9 +174,14 @@ button:hover, button:focus, .button:hover, .button:focus, .submit-button:hover, 
     border-bottom: 1px solid #05676e;
 }
 
-.about-content h1, section h1 {
+.about-content h1, .about-content section h1 {
     max-width: 100px;
     margin: var(--margin-center);
+}
+
+.work-heading {
+    max-width: 500px;
+    text-align: center;
 }
 
 #casestudy-heading {
